@@ -1,3 +1,8 @@
+# Impact of Flooding on School Attendance in West Virginia
+
+### Motivation
+This repository contains the Python code and analysis for a research project exploring the impact of flooding on school attendance in West Virginia from 2003 to 2023. This project builds upon previous research on the same topic conducted in R. The goal of this project is to replicate and extend the previous analysis using Python, demonstrating the implementation of similar data wrangling and analysis techniques in a different programming language. This replication provides a deeper understanding of the data and allows for exploration of additional components, including enhanced visualization, text processing, and the development of a Shiny app.
+
 ### Research Question
  In this project, I will discuss and answer the question of whether or not flooding has an impact on school attendance using data and evidence from West Virginia, one of the nation's most flood-prone states, from 2003 to 2023. The underlying motivation for this study lies in conducting a non-market valuation, recognizing that the impact of natural disasters extends beyond conventional market values. Also, much of the past literature has discussed the effects of natural disaster events on student learning and achievement. However, none has covered the specific impacts of flooding on school attendance. Given the direct correlation between school absences and education outcomes, this research contributes to the literature by providing more insights into the ways through which natural disasters, specifically flooding, affect student performance in the context of West Virginia's unique challenges. 
  
