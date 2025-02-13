@@ -131,7 +131,7 @@ def process_fema_df(df_fema_1st, df_fema_2nd):
     df_fema = df_fema[['fyDeclared', 'designatedArea', 'incidentBeginDate', 'incidentEndDate']]
     
     date_columns = ['incidentBeginDate', 'incidentEndDate']
-    df_fema[date_columns] = df_fema[date_columns].apply(pd.to_datetime, format='%Y-%m-%d %H:%M:%S')
+    df_fema[date_columns] = df_fema[date_columns].apply(pd.to_datetime, format='ISO8601')
     df_fema[date_columns] = df_fema[date_columns] + pd.DateOffset(months=4)
     df_fema = df_fema[(df_fema['incidentBeginDate'].dt.month.between(1,9)) |
                       (df_fema['incidentEndDate'].dt.month.between(1,9))]
