@@ -6,7 +6,7 @@ import pandas as pd
 import statsmodels.formula.api as smf
 import matplotlib.pyplot as plt
 
-PATH = r'/Users/macbook/Documents/GitHub/final-project-my-vuong/'
+PATH = r'/Users/macbook/Documents/GitHub/WV-Flood-Attendance-Analysis-Python/'
 
 def load_wv_data():
     df_wv_flood_attnd = pd.read_csv(os.path.join(PATH, 'Data/', 'wv_flood_attnd.csv'))

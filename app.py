@@ -14,7 +14,7 @@ import seaborn as sns
 from shiny import App, render, ui
 
 
-PATH = r'/Users/macbook/Documents/GitHub/final-project-my-vuong/'
+PATH = r'/Users/macbook/Documents/GitHub/WV-Flood-Attendance-Analysis-Python/'
 
 def load_shp():
     wv = geopandas.read_file(os.path.join(PATH, 'Data/', 'County_Boundaries_24k_topo.gdb'))

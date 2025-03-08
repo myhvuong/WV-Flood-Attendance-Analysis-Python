@@ -8,7 +8,7 @@ import requests
 import re
 import os
 
-PATH = r'/Users/macbook/Documents/GitHub/final-project-my-vuong/Data/'
+PATH = r'/Users/macbook/Documents/GitHub/WV-Flood-Attendance-Analysis-Python/Data/'
 
 def extract_data(url, indices):
     response = requests.get(url)
