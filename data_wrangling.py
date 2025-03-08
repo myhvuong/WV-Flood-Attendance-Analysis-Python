@@ -12,7 +12,7 @@ import pandas as pd
 import urllib.request, json 
 
 
-PATH = r'/Users/macbook/Documents/GitHub/final-project-my-vuong/Data/'
+PATH = r'/Users/macbook/Documents/GitHub/WV-Flood-Attendance-Analysis-Python/Data'
 
 ### 1. DATA WRANGLING
 
