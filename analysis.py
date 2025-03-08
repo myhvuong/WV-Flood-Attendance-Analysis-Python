@@ -1,8 +1,4 @@
-# PPHA 30538
-# Fall 2023
-# Final Project
-
-# mhvuong
+# myhvuong
 # My Vuong
 
 import os
